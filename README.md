@@ -1,5 +1,7 @@
 # claude-lab
 
+*[English](README.md) | [中文](README.zh.md)*
+
 Experimental sandbox for prototyping Claude Code configuration — skills, hooks, permissions, agents, settings, workflows. Test changes here in isolation, verify, then promote them into the global `~/.claude/` setup.
 
 ## Why
@@ -21,6 +23,8 @@ claude-lab/
 │   ├── settings.local.json # project-only permissions (gitignored)
 │   └── skills/             # checked-out skills during in-flight modifications
 ├── claude-archive/         # dated rollback snapshots (contents gitignored)
+├── README.md               # project intro (you're here)
+├── README.zh.md            # Chinese mirror
 └── .gitignore
 ```
 

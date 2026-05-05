@@ -1,5 +1,7 @@
 # claude-lab
 
+*[English](README.md) | [中文](README.zh.md)*
+
 Claude Code 配置的实验沙盒 —— skills、hooks、permissions、agents、settings、workflows。在这里隔离测试改动,经过验证后再推到全局 `~/.claude/`。
 
 ## 为什么
@@ -21,6 +23,8 @@ claude-lab/
 │   ├── settings.local.json # 项目独有权限(已 gitignore)
 │   └── skills/             # in-flight 修改期间临时 checkout 的 skill
 ├── claude-archive/         # 按日期回滚快照(内容已 gitignore)
+├── README.md               # 项目简介(你正在看)
+├── README.zh.md            # 中文镜像
 └── .gitignore
 ```
 
