@@ -1,0 +1,13 @@
+# claude-archive: rollback snapshots — file-based, intentionally not in git
+# (keep the README so the dir's purpose is documented in the repo)
+claude-archive/*
+!claude-archive/README.md
+!claude-archive/README.zh.md
+
+# Local docs / scratch — not for upload
+docs/
+
+# Editor / OS noise
+.DS_Store
+*.swp
+*~
